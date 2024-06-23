@@ -19,7 +19,7 @@ struct SwiftUIView: View {
                 Image("Image")
                 VStack {
                     Picker("Time",selection: $timer){
-                        ForEach(0..<121){ number in
+                        ForEach(1..<121){ number in
                             Text("\(number)")
                         }
                     }
