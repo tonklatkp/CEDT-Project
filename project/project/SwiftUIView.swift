@@ -13,8 +13,6 @@ struct SwiftUIView: View {
             Image("Image")
             VStack {
                 
-                
-                
                 Button("Start", action: { })
                     .font(.largeTitle)
                     .fontWeight(.bold)
@@ -22,6 +20,7 @@ struct SwiftUIView: View {
             }
         }
     }
+    
 }
 #Preview {
     SwiftUIView()
