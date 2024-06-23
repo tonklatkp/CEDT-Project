@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8429F73C2C2809F700A22795 /* SwiftUIView_evo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429F73B2C2809F700A22795 /* SwiftUIView_evo.swift */; };
 		84B74D4C2C27CC5A00DFDFD8 /* projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B74D4B2C27CC5A00DFDFD8 /* projectApp.swift */; };
 		84B74D4E2C27CC5A00DFDFD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B74D4D2C27CC5A00DFDFD8 /* ContentView.swift */; };
 		84B74D502C27CC5B00DFDFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B74D4F2C27CC5B00DFDFD8 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8429F73B2C2809F700A22795 /* SwiftUIView_evo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView_evo.swift; sourceTree = "<group>"; };
 		84B74D482C27CC5A00DFDFD8 /* project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B74D4B2C27CC5A00DFDFD8 /* projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectApp.swift; sourceTree = "<group>"; };
 		84B74D4D2C27CC5A00DFDFD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				84B74D4B2C27CC5A00DFDFD8 /* projectApp.swift */,
 				84B74D752C27D6D400DFDFD8 /* SwiftUIView.swift */,
 				84B74DAD2C27F43300DFDFD8 /* SwiftUIView_Timer.swift */,
+				8429F73B2C2809F700A22795 /* SwiftUIView_evo.swift */,
 				84B74D4D2C27CC5A00DFDFD8 /* ContentView.swift */,
 				84B74D4F2C27CC5B00DFDFD8 /* Assets.xcassets */,
 				84B74D512C27CC5B00DFDFD8 /* Preview Content */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429F73C2C2809F700A22795 /* SwiftUIView_evo.swift in Sources */,
 				84B74DAE2C27F43300DFDFD8 /* SwiftUIView_Timer.swift in Sources */,
 				84B74D4E2C27CC5A00DFDFD8 /* ContentView.swift in Sources */,
 				84B74D4C2C27CC5A00DFDFD8 /* projectApp.swift in Sources */,
