@@ -23,7 +23,6 @@ struct SwiftUIView_evo: View {
     @Binding var timeSum:Int
     
     func update(){
-        print("ok")
         timeChartList.removeAll()
         var maxTime = timeSum
         for i in 1...120{
