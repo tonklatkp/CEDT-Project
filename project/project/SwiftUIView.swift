@@ -26,11 +26,7 @@ struct SwiftUIView: View {
                     .pickerStyle(.menu)
                     .scaleEffect(2.0)
                     NavigationLink("Start") {
-                        SwiftUIView_Timer(timer2: CGFloat(timer))
-                            .onAppear {
-                                timeList[timer] += 1
-                                timeSum += timer
-                            }
+                        SwiftUIView_Timer(timer2: CGFloat(timer), timeSum: $timeSum, timeList: $timeList)
                     }
                     .font(.largeTitle)
                     .fontWeight(.bold)

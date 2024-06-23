@@ -3,7 +3,11 @@ import SwiftUI
 struct SwiftUIView_Timer: View {
     var timer2: CGFloat
     @State var timeRemaining: CGFloat = 0
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+    
+    @Binding var timeSum:Int
+    @Binding var timeList:[Int]
 
     var body: some View {
         VStack {
@@ -29,6 +33,10 @@ struct SwiftUIView_Timer: View {
             if self.timeRemaining > 0 {
                 self.timeRemaining -= 1
             }
+            else{
+                timeList[Int(timer2)] += 1
+                timeSum += Int(timer2)
+            }
         }
         .onAppear {
             timeRemaining = timer2
@@ -36,8 +44,8 @@ struct SwiftUIView_Timer: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIView_Timer(timer2: 20)
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SwiftUIView_Timer(timer2: 20)
+//    }
+//}
